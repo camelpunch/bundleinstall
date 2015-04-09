@@ -1,0 +1,17 @@
+{
+  "rootfs":"docker:///camelpunch/bundleinstall#0.0.2",
+  "privileged":false,
+  "disk_mb":1000,
+  "memory_mb":1000,
+  "stack":"lucid64",
+  "completion_callback_url":"http://www.google.co.uk/",
+  "domain":"my-domain",
+  "task_guid":"task1",
+  "log_guid":"task1",
+  "action":{
+    "run":{
+      "path":"/app/run.sh",
+      "args":[]
+    }
+  }
+}
