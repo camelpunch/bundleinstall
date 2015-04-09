@@ -1,4 +1,6 @@
-# How to get a Permission denied from Bundler using Diego
+# An example Diego Docker container gotcha
+
+## How to get a Permission denied from Bundler using Diego
 
 - Install [Lattice](http://lattice.cf/)
 - Make sure it's running: `ltc list` should say "No apps to display."
